@@ -21,5 +21,5 @@
 
 ```shell
 
-curl -fsSL https://raw.githubusercontent.com/alexruperez/dotfiles/master/install.sh | sh
+curl -fsSL http://j.mp/ardotfiles | sh
 ```
