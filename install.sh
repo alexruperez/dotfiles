@@ -1,22 +1,22 @@
 #!/bin/sh
 
-xcode-select --install￿
+xcode-select --install
 
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"￿
-brew doctor￿
-brew update￿
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew doctor
+brew update
 export PATH='/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin'
 
-brew install caskroom/cask/brew-cask￿
-brew tap caskroom/versions￿
-brew tap caskroom/fonts￿
-brew cask install iterm2￿
-brew cask install textmate￿
-brew cask install sourcetree￿
-brew install imagemagick￿
-brew install ffmpeg￿
+brew install caskroom/cask/brew-cask
+brew tap caskroom/versions
+brew tap caskroom/fonts
+brew cask install iterm2
+brew cask install textmate
+brew cask install sourcetree
+brew install imagemagick
+brew install ffmpeg
 
-brew install git￿
+brew install git
 
 git config --global alias.co checkout
 git config --global alias.a add
@@ -34,16 +34,16 @@ git config --global merge.tool "opendiff"
 
 curl -L http://install.ohmyz.sh | sh
 
-brew install rbenv ruby-build￿
+brew install rbenv ruby-build
 
-rbenv install 2.2.2￿
+rbenv install 2.2.2
 rbenv global 2.2.2
 eval "$(rbenv init -)"
-gem install bundler￿
+gem install bundler
 
-brew install postgresql￿
-initdb /usr/local/var/postgres￿
+brew install postgresql
+initdb /usr/local/var/postgres
 
-gem install lolcommits￿
+gem install lolcommits
 
-gem install cocoapods￿
+gem install cocoapods
