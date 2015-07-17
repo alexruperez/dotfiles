@@ -1,7 +1,9 @@
 #!/bin/sh
 set -e
 
-xcode-select --install || true
+if ! xcode-select -p ; then
+	xcode-select --install || true
+fi
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor || true
